@@ -1,0 +1,254 @@
+{
+ "n": 16,
+ "voice": "af_heart",
+ "speed": 1.0,
+ "items": [
+  {
+   "i": 0,
+   "chars": 13,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 13,
+     "tokens": 13,
+     "pt_audio_s": 1.65,
+     "style_row": 12
+    }
+   ],
+   "band": "short",
+   "sha": "dfdbca16"
+  },
+  {
+   "i": 1,
+   "chars": 23,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 22,
+     "tokens": 22,
+     "pt_audio_s": 1.75,
+     "style_row": 21
+    }
+   ],
+   "band": "short",
+   "sha": "34fe9b21"
+  },
+  {
+   "i": 2,
+   "chars": 35,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 34,
+     "tokens": 34,
+     "pt_audio_s": 2.375,
+     "style_row": 33
+    }
+   ],
+   "band": "short",
+   "sha": "55d4bb67"
+  },
+  {
+   "i": 3,
+   "chars": 32,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 31,
+     "tokens": 31,
+     "pt_audio_s": 2.225,
+     "style_row": 30
+    }
+   ],
+   "band": "short",
+   "sha": "8137fdbc"
+  },
+  {
+   "i": 4,
+   "chars": 28,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 27,
+     "tokens": 27,
+     "pt_audio_s": 2.15,
+     "style_row": 26
+    }
+   ],
+   "band": "short",
+   "sha": "07a69ab4"
+  },
+  {
+   "i": 5,
+   "chars": 34,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 33,
+     "tokens": 33,
+     "pt_audio_s": 2.4,
+     "style_row": 32
+    }
+   ],
+   "band": "short",
+   "sha": "3e242483"
+  },
+  {
+   "i": 6,
+   "chars": 42,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 41,
+     "tokens": 41,
+     "pt_audio_s": 2.925,
+     "style_row": 40
+    }
+   ],
+   "band": "short",
+   "sha": "d611cf91"
+  },
+  {
+   "i": 7,
+   "chars": 22,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 24,
+     "tokens": 24,
+     "pt_audio_s": 1.975,
+     "style_row": 23
+    }
+   ],
+   "band": "short",
+   "sha": "756c5d40"
+  },
+  {
+   "i": 8,
+   "chars": 107,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 107,
+     "tokens": 107,
+     "pt_audio_s": 6.6,
+     "style_row": 106
+    }
+   ],
+   "band": "medium",
+   "sha": "77e83474"
+  },
+  {
+   "i": 9,
+   "chars": 102,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 108,
+     "tokens": 108,
+     "pt_audio_s": 6.675,
+     "style_row": 107
+    }
+   ],
+   "band": "medium",
+   "sha": "37893e03"
+  },
+  {
+   "i": 10,
+   "chars": 103,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 103,
+     "tokens": 103,
+     "pt_audio_s": 6.45,
+     "style_row": 102
+    }
+   ],
+   "band": "medium",
+   "sha": "e6676107"
+  },
+  {
+   "i": 11,
+   "chars": 109,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 103,
+     "tokens": 103,
+     "pt_audio_s": 6.875,
+     "style_row": 102
+    }
+   ],
+   "band": "medium",
+   "sha": "a3d1cb6f"
+  },
+  {
+   "i": 12,
+   "chars": 111,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 108,
+     "tokens": 108,
+     "pt_audio_s": 6.775,
+     "style_row": 107
+    }
+   ],
+   "band": "medium",
+   "sha": "10c541cf"
+  },
+  {
+   "i": 13,
+   "chars": 112,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 107,
+     "tokens": 107,
+     "pt_audio_s": 6.9,
+     "style_row": 106
+    }
+   ],
+   "band": "medium",
+   "sha": "ff38938f"
+  },
+  {
+   "i": 14,
+   "chars": 486,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 476,
+     "tokens": 476,
+     "pt_audio_s": 27.5,
+     "style_row": 475
+    }
+   ],
+   "band": "long",
+   "sha": "51b395f0"
+  },
+  {
+   "i": 15,
+   "chars": 523,
+   "chunks": [
+    {
+     "j": 0,
+     "phonemes": 362,
+     "tokens": 362,
+     "pt_audio_s": 22.0,
+     "style_row": 361
+    },
+    {
+     "j": 1,
+     "phonemes": 164,
+     "tokens": 164,
+     "pt_audio_s": 9.8,
+     "style_row": 163
+    }
+   ],
+   "band": "long",
+   "sha": "73d6cbfd"
+  }
+ ]
+}

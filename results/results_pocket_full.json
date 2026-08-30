@@ -1,0 +1,101 @@
+{
+ "host": "INTEL(R) XEON(R) PLATINUM 8581C CPU @ 2.10GHz",
+ "vcpus": 32,
+ "pip_install_s": 0.8,
+ "pip_rc": 0,
+ "cold_first_ever": {
+  "ready_s": 9.79,
+  "first_request_s": 3.462,
+  "cold_to_audio_s": 13.25
+ },
+ "cold_warm_cache": [
+  {
+   "ready_s": 4.76,
+   "first_request_s": 1.049,
+   "cold_to_audio_s": 5.81
+  },
+  {
+   "ready_s": 4.26,
+   "first_request_s": 1.029,
+   "cold_to_audio_s": 5.29
+  },
+  {
+   "ready_s": 4.52,
+   "first_request_s": 0.997,
+   "cold_to_audio_s": 5.52
+  }
+ ],
+ "lone": {
+  "short": {
+   "wall_s": 1.03,
+   "audio_s": 41666.667,
+   "rate": 24000,
+   "bytes": 97964,
+   "rtf": 40453.07
+  },
+  "medium": {
+   "wall_s": 2.841,
+   "audio_s": 41666.667,
+   "rate": 24000,
+   "bytes": 263084,
+   "rtf": 14666.2
+  },
+  "long": {
+   "wall_s": 8.106,
+   "audio_s": 41666.667,
+   "rate": 24000,
+   "bytes": 720044,
+   "rtf": 5140.23
+  }
+ },
+ "wav_rate": 24000,
+ "sustained": [
+  {
+   "clients": 1,
+   "reqs": 14,
+   "bad": 0,
+   "audio_s": 583333.3,
+   "window_s": 51.4,
+   "throughput_x": 11339.85,
+   "server_cpu_s": 72.4,
+   "audio_per_cpu_s": 8058.2,
+   "lat_p50_s": 2.68,
+   "lat_p90_s": 7.6
+  },
+  {
+   "clients": 2,
+   "reqs": 21,
+   "bad": 0,
+   "audio_s": 875000.0,
+   "window_s": 56.7,
+   "throughput_x": 15424.76,
+   "server_cpu_s": 134.7,
+   "audio_per_cpu_s": 6497.85,
+   "lat_p50_s": 3.28,
+   "lat_p90_s": 9.75
+  },
+  {
+   "clients": 4,
+   "reqs": 21,
+   "bad": 0,
+   "audio_s": 875000.0,
+   "window_s": 59.7,
+   "throughput_x": 14655.79,
+   "server_cpu_s": 187.5,
+   "audio_per_cpu_s": 4665.42,
+   "lat_p50_s": 6.11,
+   "lat_p90_s": 18.5
+  }
+ ],
+ "idle_rss_mb": {
+  "60": 1239.3,
+  "300": 1234.0,
+  "600": 1233.5
+ },
+ "post_idle_request": {
+  "wall_s": 1.12,
+  "audio_s": 41666.667,
+  "rate": 24000,
+  "bytes": 101804
+ }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# regenerated on the measurement container
+corpus.npz
+corpus_texts.json
+results_load.jsonl
+ovcache/
+*.onnx
+*.wav
+# figure output directory
+figs/

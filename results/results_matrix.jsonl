@@ -1,0 +1,96 @@
+{"kind": "cold", "cfg": "pt-default", "ready_s": 6.77, "cold_first_audio_s": 7.74, "ts": 1787915187.7}
+{"kind": "lone", "cfg": "pt-default", "band": "short", "audio_s": 2.375, "first_ms": 442.5, "wall_s": 0.444, "ts": 1787915189.2}
+{"kind": "lone", "cfg": "pt-default", "band": "medium", "audio_s": 6.6, "first_ms": 894.8, "wall_s": 0.911, "ts": 1787915192.0}
+{"kind": "lone", "cfg": "pt-default", "band": "long", "audio_s": 27.5, "first_ms": 5203.8, "wall_s": 5.21, "ts": 1787915207.9}
+{"label": "pt-default-c4", "clients": 4, "window_s": 80.5, "reqs": 93, "bad": 0, "audio_s": 690.6, "throughput_x": 8.58, "server_cpu_s": 1039.3, "audio_per_cpu_s": 0.66, "first_p50_ms": 2459.0, "first_p90_ms": 8021.0, "lat_p50_s": 2.47, "kind": "sustained", "cfg": "pt-default", "ts": 1787915303.5}
+{"kind": "idle", "cfg": "pt-default", "after_s": 60, "server_rss_mb": 8659.4, "cgroup_mb": 10148.0, "ts": 1787915363.5}
+{"kind": "idle", "cfg": "pt-default", "after_s": 300, "server_rss_mb": 8659.4, "cgroup_mb": 10148.0, "ts": 1787915603.5}
+{"kind": "idle", "cfg": "pt-default", "after_s": 600, "server_rss_mb": 8659.4, "cgroup_mb": 10148.0, "ts": 1787915903.5}
+{"kind": "cold", "cfg": "pt-4t", "ready_s": 6.26, "cold_first_audio_s": 7.18, "ts": 1787915914.4}
+{"kind": "lone", "cfg": "pt-4t", "band": "short", "audio_s": 2.375, "first_ms": 680.8, "wall_s": 0.683, "ts": 1787915916.5}
+{"kind": "lone", "cfg": "pt-4t", "band": "medium", "audio_s": 6.6, "first_ms": 1555.8, "wall_s": 1.561, "ts": 1787915921.5}
+{"kind": "lone", "cfg": "pt-4t", "band": "long", "audio_s": 27.5, "first_ms": 9549.2, "wall_s": 9.557, "ts": 1787915950.3}
+{"label": "pt-4t-c4", "clients": 4, "window_s": 79.0, "reqs": 95, "bad": 0, "audio_s": 695.4, "throughput_x": 8.81, "server_cpu_s": 1009.7, "audio_per_cpu_s": 0.69, "first_p50_ms": 1345.0, "first_p90_ms": 10109.0, "lat_p50_s": 1.35, "kind": "sustained", "cfg": "pt-4t", "ts": 1787916044.4}
+{"kind": "cold", "cfg": "ort-default", "ready_s": 5.51, "cold_first_audio_s": 5.84, "ts": 1787916053.7}
+{"kind": "lone", "cfg": "ort-default", "band": "short", "audio_s": 2.375, "first_ms": 343.9, "wall_s": 0.347, "ts": 1787916054.8}
+{"kind": "lone", "cfg": "ort-default", "band": "medium", "audio_s": 6.6, "first_ms": 854.6, "wall_s": 0.856, "ts": 1787916057.5}
+{"kind": "lone", "cfg": "ort-default", "band": "long", "audio_s": 27.5, "first_ms": 3835.8, "wall_s": 3.841, "ts": 1787916069.1}
+{"label": "ort-default-c4", "clients": 4, "window_s": 78.2, "reqs": 174, "bad": 0, "audio_s": 1274.0, "throughput_x": 16.3, "server_cpu_s": 1432.1, "audio_per_cpu_s": 0.89, "first_p50_ms": 944.0, "first_p90_ms": 4940.0, "lat_p50_s": 0.95, "kind": "sustained", "cfg": "ort-default", "ts": 1787916162.3}
+{"kind": "idle", "cfg": "ort-default", "after_s": 60, "server_rss_mb": 3968.7, "cgroup_mb": 5239.6, "ts": 1787916222.3}
+{"kind": "idle", "cfg": "ort-default", "after_s": 300, "server_rss_mb": 3968.7, "cgroup_mb": 5239.6, "ts": 1787916462.3}
+{"kind": "idle", "cfg": "ort-default", "after_s": 600, "server_rss_mb": 3968.6, "cgroup_mb": 5239.6, "ts": 1787916762.3}
+{"kind": "cold", "cfg": "ort-4t", "ready_s": 5.26, "cold_first_audio_s": 5.66, "ts": 1787916771.3}
+{"kind": "lone", "cfg": "ort-4t", "band": "short", "audio_s": 2.375, "first_ms": 513.2, "wall_s": 0.515, "ts": 1787916772.9}
+{"kind": "lone", "cfg": "ort-4t", "band": "medium", "audio_s": 6.6, "first_ms": 1429.9, "wall_s": 1.432, "ts": 1787916777.0}
+{"kind": "lone", "cfg": "ort-4t", "band": "long", "audio_s": 27.5, "first_ms": 6048.4, "wall_s": 6.055, "ts": 1787916795.4}
+{"label": "ort-4t-c4", "clients": 4, "window_s": 84.3, "reqs": 100, "bad": 0, "audio_s": 770.0, "throughput_x": 9.13, "server_cpu_s": 566.5, "audio_per_cpu_s": 1.36, "first_p50_ms": 2360.0, "first_p90_ms": 8387.0, "lat_p50_s": 2.36, "kind": "sustained", "cfg": "ort-4t", "ts": 1787916894.8}
+{"label": "ort-4t-c1", "clients": 1, "window_s": 48.2, "reqs": 29, "bad": 0, "audio_s": 213.9, "throughput_x": 4.44, "server_cpu_s": 181.2, "audio_per_cpu_s": 1.18, "first_p50_ms": 597.0, "first_p90_ms": 5193.0, "lat_p50_s": 0.6, "kind": "sustained", "cfg": "ort-4t", "ts": 1787916955.1}
+{"label": "ort-4t-c2", "clients": 2, "window_s": 49.6, "reqs": 46, "bad": 0, "audio_s": 291.8, "throughput_x": 5.88, "server_cpu_s": 245.6, "audio_per_cpu_s": 1.19, "first_p50_ms": 977.0, "first_p90_ms": 2093.0, "lat_p50_s": 0.98, "kind": "sustained", "cfg": "ort-4t", "ts": 1787917016.8}
+{"label": "ort-4t-c8", "clients": 8, "window_s": 56.2, "reqs": 100, "bad": 0, "audio_s": 720.3, "throughput_x": 12.81, "server_cpu_s": 576.6, "audio_per_cpu_s": 1.25, "first_p50_ms": 3310.0, "first_p90_ms": 10856.0, "lat_p50_s": 3.31, "kind": "sustained", "cfg": "ort-4t", "ts": 1787917085.2}
+{"label": "ort-4t-c16", "clients": 16, "window_s": 58.0, "reqs": 124, "bad": 0, "audio_s": 922.3, "throughput_x": 15.89, "server_cpu_s": 957.0, "audio_per_cpu_s": 0.96, "first_p50_ms": 4943.0, "first_p90_ms": 15805.0, "lat_p50_s": 4.95, "kind": "sustained", "cfg": "ort-4t", "ts": 1787917155.3}
+{"kind": "cold", "cfg": "ov-default", "ready_s": 6.51, "cold_first_audio_s": 6.86, "ts": 1787917165.7}
+{"kind": "lone", "cfg": "ov-default", "band": "short", "audio_s": 2.375, "first_ms": 134.5, "wall_s": 0.136, "ts": 1787917166.3}
+{"kind": "lone", "cfg": "ov-default", "band": "medium", "audio_s": 6.625, "first_ms": 281.7, "wall_s": 0.283, "ts": 1787917167.3}
+{"kind": "lone", "cfg": "ov-default", "band": "long", "audio_s": 27.475, "first_ms": 1373.8, "wall_s": 1.386, "ts": 1787917171.2}
+{"label": "ov-default-c4", "clients": 4, "window_s": 75.2, "reqs": 163, "bad": 13240, "audio_s": 1123.9, "throughput_x": 14.95, "server_cpu_s": 1188.1, "audio_per_cpu_s": 0.95, "first_p50_ms": 324.0, "first_p90_ms": 495.0, "lat_p50_s": 0.33, "kind": "sustained", "cfg": "ov-default", "ts": 1787917261.5}
+{"kind": "idle", "cfg": "ov-default", "after_s": 60, "server_rss_mb": 5250.0, "cgroup_mb": 6570.3, "ts": 1787917321.5}
+{"kind": "idle", "cfg": "ov-default", "after_s": 300, "server_rss_mb": 5250.0, "cgroup_mb": 6570.3, "ts": 1787917561.5}
+{"kind": "idle", "cfg": "ov-default", "after_s": 600, "server_rss_mb": 5249.9, "cgroup_mb": 6570.3, "ts": 1787917861.5}
+{"kind": "cold", "cfg": "ov-4t4s", "ready_s": 6.26, "cold_first_audio_s": 6.72, "ts": 1787917871.6}
+{"kind": "lone", "cfg": "ov-4t4s", "band": "short", "audio_s": 2.375, "first_ms": 307.8, "wall_s": 0.309, "ts": 1787917872.6}
+{"kind": "lone", "cfg": "ov-4t4s", "band": "medium", "audio_s": 6.625, "first_ms": 686.0, "wall_s": 0.688, "ts": 1787917874.7}
+{"kind": "lone", "cfg": "ov-4t4s", "band": "long", "audio_s": 27.475, "first_ms": 2771.1, "wall_s": 2.776, "ts": 1787917883.2}
+{"label": "ov-4t4s-c4", "clients": 4, "window_s": 76.5, "reqs": 352, "bad": 0, "audio_s": 2577.8, "throughput_x": 33.71, "server_cpu_s": 1123.2, "audio_per_cpu_s": 2.3, "first_p50_ms": 638.0, "first_p90_ms": 2470.0, "lat_p50_s": 0.64, "kind": "sustained", "cfg": "ov-4t4s", "ts": 1787917974.7}
+{"label": "ov-4t4s-c1", "clients": 1, "window_s": 48.4, "reqs": 73, "bad": 0, "audio_s": 492.8, "throughput_x": 10.17, "server_cpu_s": 187.2, "audio_per_cpu_s": 2.63, "first_p50_ms": 310.0, "first_p90_ms": 2004.0, "lat_p50_s": 0.31, "kind": "sustained", "cfg": "ov-4t4s", "ts": 1787918035.3}
+{"label": "ov-4t4s-c2", "clients": 2, "window_s": 49.6, "reqs": 125, "bad": 0, "audio_s": 931.6, "throughput_x": 18.77, "server_cpu_s": 376.4, "audio_per_cpu_s": 2.47, "first_p50_ms": 604.0, "first_p90_ms": 2205.0, "lat_p50_s": 0.61, "kind": "sustained", "cfg": "ov-4t4s", "ts": 1787918097.0}
+{"label": "ov-4t4s-c8", "clients": 8, "window_s": 49.8, "reqs": 244, "bad": 0, "audio_s": 1767.0, "throughput_x": 35.47, "server_cpu_s": 757.4, "audio_per_cpu_s": 2.33, "first_p50_ms": 1182.0, "first_p90_ms": 3013.0, "lat_p50_s": 1.18, "kind": "sustained", "cfg": "ov-4t4s", "ts": 1787918158.9}
+{"label": "ov-4t4s-c16", "clients": 16, "window_s": 52.6, "reqs": 231, "bad": 0, "audio_s": 1684.8, "throughput_x": 32.0, "server_cpu_s": 784.4, "audio_per_cpu_s": 2.15, "first_p50_ms": 2922.0, "first_p90_ms": 5021.0, "lat_p50_s": 2.92, "kind": "sustained", "cfg": "ov-4t4s", "ts": 1787918223.7}
+{"kind": "idle", "cfg": "ov-4t4s", "after_s": 60, "server_rss_mb": 7823.5, "cgroup_mb": 9281.5, "ts": 1787918283.7}
+{"kind": "idle", "cfg": "ov-4t4s", "after_s": 300, "server_rss_mb": 7820.9, "cgroup_mb": 9281.3, "ts": 1787918523.7}
+{"kind": "idle", "cfg": "ov-4t4s", "after_s": 600, "server_rss_mb": 7819.9, "cgroup_mb": 9281.3, "ts": 1787918823.7}
+{"kind": "cold", "cfg": "ov-cache", "ready_s": 6.76, "cold_first_audio_s": 7.19, "ts": 1787918834.4}
+{"kind": "cold-cached", "cfg": "ov-cache", "ready_s": 5.01, "cold_first_audio_s": 5.43, "ts": 1787918840.0}
+{"kind": "lone", "cfg": "ov-cache", "band": "short", "audio_s": 2.375, "first_ms": 328.7, "wall_s": 0.33, "ts": 1787918841.0}
+{"kind": "lone", "cfg": "ov-cache", "band": "medium", "audio_s": 6.625, "first_ms": 670.7, "wall_s": 0.672, "ts": 1787918843.2}
+{"kind": "lone", "cfg": "ov-cache", "band": "long", "audio_s": 27.475, "first_ms": 2772.4, "wall_s": 2.777, "ts": 1787918851.5}
+{"label": "ov-cache-c4", "clients": 4, "window_s": 76.9, "reqs": 355, "bad": 0, "audio_s": 2593.2, "throughput_x": 33.74, "server_cpu_s": 1114.8, "audio_per_cpu_s": 2.33, "first_p50_ms": 640.0, "first_p90_ms": 2436.0, "lat_p50_s": 0.64, "kind": "sustained", "cfg": "ov-cache", "ts": 1787918943.4}
+{"kind": "done", "ts": 1787918946.9}
+{"label": "ov-default-v2-c4", "clients": 4, "window_s": 75.6, "reqs": 206, "bad": 0, "audio_s": 1518.3, "throughput_x": 20.08, "server_cpu_s": 1127.2, "audio_per_cpu_s": 1.35, "first_p50_ms": 1261.0, "first_p90_ms": 2618.0, "lat_p50_s": 1.26, "kind": "sustained", "cfg": "ov-default-v2", "ts": 1787919393.5}
+{"label": "ov-4t4s-v2-c1", "clients": 1, "window_s": 48.4, "reqs": 58, "bad": 0, "audio_s": 382.3, "throughput_x": 7.91, "server_cpu_s": 165.7, "audio_per_cpu_s": 2.31, "first_p50_ms": 442.0, "first_p90_ms": 2503.0, "lat_p50_s": 0.44, "kind": "sustained", "cfg": "ov-4t4s-v2", "ts": 1787919464.0}
+{"label": "ov-4t4s-v2-c2", "clients": 2, "window_s": 49.0, "reqs": 125, "bad": 0, "audio_s": 931.6, "throughput_x": 19.0, "server_cpu_s": 371.3, "audio_per_cpu_s": 2.51, "first_p50_ms": 604.0, "first_p90_ms": 2270.0, "lat_p50_s": 0.61, "kind": "sustained", "cfg": "ov-4t4s-v2", "ts": 1787919525.1}
+{"label": "ov-4t4s-v2-c4", "clients": 4, "window_s": 76.9, "reqs": 363, "bad": 0, "audio_s": 2640.5, "throughput_x": 34.35, "server_cpu_s": 1136.7, "audio_per_cpu_s": 2.32, "first_p50_ms": 474.0, "first_p90_ms": 2382.0, "lat_p50_s": 0.55, "kind": "sustained", "cfg": "ov-4t4s-v2", "ts": 1787919617.1}
+{"label": "ov-4t4s-v2-c8", "clients": 8, "window_s": 50.4, "reqs": 243, "bad": 0, "audio_s": 1769.2, "throughput_x": 35.08, "server_cpu_s": 756.6, "audio_per_cpu_s": 2.34, "first_p50_ms": 1210.0, "first_p90_ms": 3023.0, "lat_p50_s": 1.21, "kind": "sustained", "cfg": "ov-4t4s-v2", "ts": 1787919679.7}
+{"label": "ov-4t4s-v2-c16", "clients": 16, "window_s": 51.9, "reqs": 230, "bad": 0, "audio_s": 1658.7, "throughput_x": 31.98, "server_cpu_s": 758.2, "audio_per_cpu_s": 2.19, "first_p50_ms": 2875.0, "first_p90_ms": 4826.0, "lat_p50_s": 2.88, "kind": "sustained", "cfg": "ov-4t4s-v2", "ts": 1787919743.7}
+{"kind": "idle", "cfg": "ov-4t4s-v2", "after_s": 60, "server_rss_mb": 8684.4, "cgroup_mb": 10530.5, "ts": 1787919803.7}
+{"kind": "idle", "cfg": "ov-4t4s-v2", "after_s": 300, "server_rss_mb": 8684.3, "cgroup_mb": 10530.4, "ts": 1787920043.7}
+{"kind": "idle", "cfg": "ov-4t4s-v2", "after_s": 600, "server_rss_mb": 8684.1, "cgroup_mb": 10530.2, "ts": 1787920343.7}
+{"label": "ov-8s-v2-c4", "clients": 4, "window_s": 78.9, "reqs": 219, "bad": 0, "audio_s": 1585.9, "throughput_x": 20.1, "server_cpu_s": 584.3, "audio_per_cpu_s": 2.71, "first_p50_ms": 692.0, "first_p90_ms": 4204.0, "lat_p50_s": 0.69, "kind": "sustained", "cfg": "ov-8s-v2", "ts": 1787920449.0}
+{"label": "ov-8s-v2-c8", "clients": 8, "window_s": 51.7, "reqs": 269, "bad": 0, "audio_s": 1950.8, "throughput_x": 37.75, "server_cpu_s": 748.0, "audio_per_cpu_s": 2.61, "first_p50_ms": 616.0, "first_p90_ms": 4470.0, "lat_p50_s": 0.62, "kind": "sustained", "cfg": "ov-8s-v2", "ts": 1787920512.7}
+{"label": "ov-8s-v2-c16", "clients": 16, "window_s": 54.9, "reqs": 265, "bad": 0, "audio_s": 1962.8, "throughput_x": 35.75, "server_cpu_s": 784.5, "audio_per_cpu_s": 2.5, "first_p50_ms": 2175.0, "first_p90_ms": 6129.0, "lat_p50_s": 2.19, "kind": "sustained", "cfg": "ov-8s-v2", "ts": 1787920579.7}
+{"kind": "done-v2", "ts": 1787920583.7}
+{"kind": "cold", "cfg": "ov-ours", "ready_s": 5.02, "cold_first_audio_s": 5.56, "ts": 1787920720.9}
+{"kind": "lone", "cfg": "ov-ours", "band": "short", "audio_s": 2.375, "first_ms": 341.6, "ts": 1787920722.1}
+{"kind": "lone", "cfg": "ov-ours", "band": "medium", "audio_s": 6.625, "first_ms": 757.1, "ts": 1787920724.6}
+{"kind": "lone", "cfg": "ov-ours", "band": "long", "audio_s": 27.475, "first_ms": 2989.7, "ts": 1787920733.7}
+{"label": "ov-ours-c4a", "clients": 4, "window_s": 76.2, "reqs": 328, "bad": 0, "audio_s": 2379.6, "throughput_x": 31.22, "server_cpu_s": 1099.1, "audio_per_cpu_s": 2.16, "first_p50_ms": 712.0, "first_p90_ms": 2603.0, "lat_p50_s": 0.71, "kind": "sustained", "cfg": "ov-ours", "ts": 1787920825.0}
+{"kind": "idle", "cfg": "ov-ours", "after_s": 30, "server_rss_mb": 7679.4, "cgroup_mb": 9154.5, "ts": 1787920855.0}
+{"kind": "idle", "cfg": "ov-ours", "after_s": 90, "server_rss_mb": 2043.2, "cgroup_mb": 3237.6, "ts": 1787920915.0}
+{"kind": "idle", "cfg": "ov-ours", "after_s": 150, "server_rss_mb": 2043.2, "cgroup_mb": 3237.6, "ts": 1787920975.0}
+{"kind": "idle", "cfg": "ov-ours", "after_s": 300, "server_rss_mb": 2043.2, "cgroup_mb": 3237.6, "ts": 1787921125.0}
+{"kind": "idle", "cfg": "ov-ours", "after_s": 600, "server_rss_mb": 2043.2, "cgroup_mb": 3237.6, "ts": 1787921425.0}
+{"kind": "restore", "cfg": "ov-ours", "first_ms": 1997.4, "wall_s": 1.999, "ts": 1787921427.0}
+{"label": "ov-ours-c4b", "clients": 4, "window_s": 75.8, "reqs": 321, "bad": 0, "audio_s": 2350.3, "throughput_x": 31.0, "server_cpu_s": 1088.3, "audio_per_cpu_s": 2.16, "first_p50_ms": 704.0, "first_p90_ms": 2613.0, "lat_p50_s": 0.71, "kind": "sustained", "cfg": "ov-ours", "ts": 1787921518.0}
+{"kind": "done-v3", "ts": 1787921518.8}
+{"kind": "cold", "cfg": "ov-ours8", "ready_s": 5.52, "cold_first_audio_s": 6.15, "ts": 1787921727.1}
+{"kind": "lone", "cfg": "ov-ours8", "band": "short", "audio_s": 2.375, "first_ms": 493.0, "ts": 1787921728.6}
+{"kind": "lone", "cfg": "ov-ours8", "band": "medium", "audio_s": 6.625, "first_ms": 1274.5, "ts": 1787921732.7}
+{"kind": "lone", "cfg": "ov-ours8", "band": "long", "audio_s": 27.475, "first_ms": 5296.7, "ts": 1787921749.0}
+{"label": "ov-ours8-c4a", "clients": 4, "window_s": 76.4, "reqs": 209, "bad": 0, "audio_s": 1530.2, "throughput_x": 20.02, "server_cpu_s": 577.2, "audio_per_cpu_s": 2.65, "first_p50_ms": 942.0, "first_p90_ms": 4318.0, "lat_p50_s": 0.95, "kind": "sustained", "cfg": "ov-ours8", "ts": 1787921840.6}
+{"kind": "idle", "cfg": "ov-ours8", "after_s": 30, "server_rss_mb": 12096.8, "cgroup_mb": 13796.3, "ts": 1787921870.6}
+{"kind": "idle", "cfg": "ov-ours8", "after_s": 90, "server_rss_mb": 1332.6, "cgroup_mb": 2541.3, "ts": 1787921930.6}
+{"kind": "idle", "cfg": "ov-ours8", "after_s": 150, "server_rss_mb": 1330.7, "cgroup_mb": 2541.2, "ts": 1787921990.6}
+{"kind": "idle", "cfg": "ov-ours8", "after_s": 300, "server_rss_mb": 1330.7, "cgroup_mb": 2541.2, "ts": 1787922140.6}
+{"kind": "idle", "cfg": "ov-ours8", "after_s": 600, "server_rss_mb": 1330.7, "cgroup_mb": 2541.2, "ts": 1787922440.6}
+{"kind": "restore", "cfg": "ov-ours8", "first_ms": 2532.5, "wall_s": 2.534, "ts": 1787922443.1}
+{"label": "ov-ours8-c4b", "clients": 4, "window_s": 79.6, "reqs": 224, "bad": 0, "audio_s": 1640.5, "throughput_x": 20.61, "server_cpu_s": 590.9, "audio_per_cpu_s": 2.78, "first_p50_ms": 947.0, "first_p90_ms": 4082.0, "lat_p50_s": 0.95, "kind": "sustained", "cfg": "ov-ours8", "ts": 1787922537.8}
+{"kind": "done-v3", "ts": 1787922538.7}

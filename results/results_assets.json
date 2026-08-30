@@ -1,0 +1,21 @@
+{
+ "download_s": 0.6,
+ "onnx_sha": "8fbea51e",
+ "onnx_mb": 325.5,
+ "kpipeline_init_s": 2.0,
+ "pt_infer_s": 1.2,
+ "pt_audio_s": 5.9,
+ "phoneme_len": 97,
+ "dropped_phonemes": 0,
+ "ort_load_s": 0.8,
+ "ort_infer_s": 0.84,
+ "ort_audio_s": 5.9,
+ "ov_compile_s": 2.0,
+ "ov_infer_s": 0.64,
+ "ov_audio_s": 5.83,
+ "snr_ort_vs_ov_db": -0.5,
+ "len_pt": 141600,
+ "len_ort": 141600,
+ "len_ov": 139800,
+ "snr_pt_vs_ort_db": -4.1
+}

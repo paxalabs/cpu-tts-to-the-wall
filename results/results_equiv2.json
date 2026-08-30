@@ -1,0 +1,32 @@
+[
+ {
+  "i": 0,
+  "ort_selfsnr_db": Infinity,
+  "ov_selfsnr_db": Infinity,
+  "pt_vs_ort_snr_db": 6.6,
+  "len_pt": 39600,
+  "len_ort": 39600,
+  "len_ov": 39600,
+  "ort_vs_ov_snr_db": -0.3
+ },
+ {
+  "i": 2,
+  "ort_selfsnr_db": Infinity,
+  "ov_selfsnr_db": Infinity,
+  "pt_vs_ort_snr_db": 6.0,
+  "len_pt": 57000,
+  "len_ort": 57000,
+  "len_ov": 57000,
+  "ort_vs_ov_snr_db": -1.1
+ },
+ {
+  "i": 8,
+  "ort_selfsnr_db": Infinity,
+  "ov_selfsnr_db": Infinity,
+  "pt_vs_ort_snr_db": 6.6,
+  "len_pt": 158400,
+  "len_ort": 158400,
+  "len_ov": 159000,
+  "ort_vs_ov_snr_db": null
+ }
+]
