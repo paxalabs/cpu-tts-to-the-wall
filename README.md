@@ -4,6 +4,8 @@ Measurement scripts, raw measurement logs, and analysis code behind the
 paper *Pushing CPU Speech Synthesis to the Wall: Extreme Inference Tuning
 under Serverless Architecture and Billing* (Pakorn Nathong, Paxa Labs).
 
+Repository: https://github.com/paxalabs/cpu-tts-to-the-wall
+
 **Provided as-is.** This is a record of a measurement campaign, not a
 library and not production software. It is published so that every number
 in the paper can be traced to a raw log and to the script that produced
@@ -138,7 +140,8 @@ under the alternative published rates).
             under Serverless Architecture and Billing},
   author = {Nathong, Pakorn},
   year   = {2026},
-  note   = {Paxa Labs}
+  note   = {Paxa Labs},
+  howpublished = {\url{https://github.com/paxalabs/cpu-tts-to-the-wall}}
 }
 ```
 
