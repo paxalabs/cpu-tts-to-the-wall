@@ -43,6 +43,7 @@ before `fill_values.py`, because the per-day cost macros read
 | `equivalence_lengths.py`, `equivalence_snr.py`, `equivalence_mel.py` | cross-backend output equivalence: per-chunk audio-length deltas, determinism floors and SNR, log-mel distances | `results/results_equiv.json`, `results_equiv2.json`, `results_equiv3.json` |
 | `matrix_main.py` | the main measurement matrix: cold start, lone-request latency, sustained closed-loop load, ten-minute idle decay, per configuration | `results/results_matrix.jsonl` |
 | `matrix_rerun_pool_fix.py` | rerun of the OpenVINO sustained rows after the inference-request pool fix (rows suffixed `-v2`) | `results/results_matrix.jsonl` |
+| `matrix_fill.py` | the fill pass: the four table cells the primary campaign did not sample (sized ONNX Runtime idle, `ov-cache` idle, `ov-8s` cold start, cached eight-stream cold start), plus same-container anchors, on a second container of the primary host's class; refuses to run on any other CPU model | `results/results_matrix_fill.jsonl` |
 | `matrix_lifecycle.py`, `matrix_lifecycle_8streams.py` | the paper's configuration with four and with eight streams: cold start, lone latency, sustained load, idle decay through a release, restore latency | `results/results_matrix.jsonl` |
 | `pad_and_fusion_probe.py` | pad-tolerance test and the dynamic-versus-static per-operator profile (run on an otherwise idle container) | `results/results_g3.json` |
 | `matrix_second_arch.py` | the second-architecture pass: full setup, then a reduced matrix | `results/results_matrix_epyc.jsonl` |
@@ -95,20 +96,23 @@ order):
 5. `pad_and_fusion_probe.py` (with nothing else running)
 6. `matrix_second_arch.py` on the second host (it performs step 1 itself)
 7. `pocket_protocol.py`, then `pocket_sustained.py` in the pocket-tts container
+8. `matrix_fill.py` on a fresh container of the primary host's class (it performs step 1 itself)
 
 **Configurations.** Each matrix script starts `serve_shim.py` with the
 environment of one configuration, drives it with `loadgen_local.py`, and
 appends one JSON row per measurement. The configuration names used in the
 results (`pt-default`, `pt-4t`, `ort-default`, `ort-4t`, `ov-default`,
-`ov-4t4s`, `ov-cache`, `ov-8s`, `ov-ours`, `ov-ours8`) are defined, with
+`ov-4t4s`, `ov-cache`, `ov-8s`, `ov-8s-cache`, `ov-ours`, `ov-ours8`) are defined, with
 their exact environment, in the tables at the top of `matrix_main.py`,
-`matrix_lifecycle.py`, `matrix_lifecycle_8streams.py`, and
-`matrix_second_arch.py`. `ov-ours8` is the paper's "This work".
+`matrix_lifecycle.py`, `matrix_lifecycle_8streams.py`, `matrix_fill.py`, and
+`matrix_second_arch.py`. The fill pass ran in a different container from
+the primary campaign; its cells carry a dagger in the paper's tables and
+its `host` row records the CPU model and cgroup limits it saw. `ov-ours8` is the paper's "This work".
 
 ## Raw result files
 
-`results/results_matrix.jsonl` and `results/results_matrix_epyc.jsonl`
-hold one JSON object per line, distinguished by `kind`:
+`results/results_matrix.jsonl`, `results/results_matrix_epyc.jsonl`, and
+`results/results_matrix_fill.jsonl` hold one JSON object per line, distinguished by `kind`:
 
 | `kind` | fields |
 | --- | --- |

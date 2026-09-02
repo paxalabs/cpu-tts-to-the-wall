@@ -1,0 +1,52 @@
+{"kind": "host", "cpu": "INTEL(R) XEON(R) PLATINUM 8581C CPU @ 2.10GHz", "cpus": 32, "cpu_max": "3200000 100000", "memory_max": "32000000000", "kernel": "6.18.15+deb13-cloud-amd64", "ts": 1788333752.5}
+{"kind": "cold", "cfg": "ort-default", "ready_s": 5.77, "cold_first_audio_s": 6.05, "ts": 1788333810.1}
+{"kind": "lone", "cfg": "ort-default", "band": "short", "audio_s": 2.375, "first_ms": 388.8, "wall_s": 0.396, "ts": 1788333811.2}
+{"kind": "lone", "cfg": "ort-default", "band": "medium", "audio_s": 6.6, "first_ms": 905.4, "wall_s": 0.908, "ts": 1788333814.0}
+{"kind": "lone", "cfg": "ort-default", "band": "long", "audio_s": 27.5, "first_ms": 3672.1, "wall_s": 3.677, "ts": 1788333824.9}
+{"label": "ort-default-c4", "clients": 4, "window_s": 78.3, "reqs": 157, "bad": 0, "audio_s": 1150.2, "throughput_x": 14.7, "server_cpu_s": 1372.7, "audio_per_cpu_s": 0.84, "first_p50_ms": 1070.0, "first_p90_ms": 5175.0, "lat_p50_s": 1.07, "kind": "sustained", "cfg": "ort-default", "ts": 1788333918.2}
+{"kind": "idle", "cfg": "ort-default", "after_s": 60, "server_rss_mb": 4077.4, "cgroup_mb": 4888.7, "ts": 1788333978.2}
+{"kind": "idle", "cfg": "ort-default", "after_s": 300, "server_rss_mb": 4077.4, "cgroup_mb": 4888.7, "ts": 1788334218.2}
+{"kind": "idle", "cfg": "ort-default", "after_s": 600, "server_rss_mb": 4077.4, "cgroup_mb": 4888.7, "ts": 1788334518.2}
+{"kind": "cold", "cfg": "ort-4t", "ready_s": 5.01, "cold_first_audio_s": 5.42, "ts": 1788334526.9}
+{"kind": "lone", "cfg": "ort-4t", "band": "short", "audio_s": 2.375, "first_ms": 623.5, "wall_s": 0.625, "ts": 1788334528.8}
+{"kind": "lone", "cfg": "ort-4t", "band": "medium", "audio_s": 6.6, "first_ms": 1497.9, "wall_s": 1.5, "ts": 1788334533.2}
+{"kind": "lone", "cfg": "ort-4t", "band": "long", "audio_s": 27.5, "first_ms": 6655.3, "wall_s": 6.662, "ts": 1788334553.3}
+{"label": "ort-4t-c4", "clients": 4, "window_s": 79.0, "reqs": 95, "bad": 0, "audio_s": 695.7, "throughput_x": 8.81, "server_cpu_s": 542.2, "audio_per_cpu_s": 1.28, "first_p50_ms": 1632.0, "first_p90_ms": 8773.0, "lat_p50_s": 1.63, "kind": "sustained", "cfg": "ort-4t", "ts": 1788334647.4}
+{"kind": "idle", "cfg": "ort-4t", "after_s": 60, "server_rss_mb": 3961.4, "cgroup_mb": 4534.3, "ts": 1788334707.4}
+{"kind": "idle", "cfg": "ort-4t", "after_s": 300, "server_rss_mb": 3959.3, "cgroup_mb": 4401.9, "ts": 1788334947.4}
+{"kind": "idle", "cfg": "ort-4t", "after_s": 600, "server_rss_mb": 3958.5, "cgroup_mb": 4401.9, "ts": 1788335247.4}
+{"kind": "cold", "cfg": "ov-4t4s", "ready_s": 8.27, "cold_first_audio_s": 8.77, "ts": 1788335259.4}
+{"kind": "lone", "cfg": "ov-4t4s", "band": "short", "audio_s": 2.375, "first_ms": 316.6, "wall_s": 0.318, "ts": 1788335260.4}
+{"kind": "lone", "cfg": "ov-4t4s", "band": "medium", "audio_s": 6.625, "first_ms": 758.9, "wall_s": 0.761, "ts": 1788335262.8}
+{"kind": "lone", "cfg": "ov-4t4s", "band": "long", "audio_s": 27.475, "first_ms": 2791.8, "wall_s": 2.797, "ts": 1788335271.3}
+{"label": "ov-4t4s-c4", "clients": 4, "window_s": 76.4, "reqs": 343, "bad": 0, "audio_s": 2494.7, "throughput_x": 32.65, "server_cpu_s": 1133.8, "audio_per_cpu_s": 2.2, "first_p50_ms": 702.0, "first_p90_ms": 2553.0, "lat_p50_s": 0.71, "kind": "sustained", "cfg": "ov-4t4s", "ts": 1788335362.8}
+{"kind": "idle", "cfg": "ov-4t4s", "after_s": 60, "server_rss_mb": 7712.7, "cgroup_mb": 8417.7, "ts": 1788335422.8}
+{"kind": "idle", "cfg": "ov-4t4s", "after_s": 300, "server_rss_mb": 7712.7, "cgroup_mb": 8417.7, "ts": 1788335662.8}
+{"kind": "idle", "cfg": "ov-4t4s", "after_s": 600, "server_rss_mb": 7712.7, "cgroup_mb": 8417.7, "ts": 1788335962.8}
+{"kind": "cold", "cfg": "ov-cache", "ready_s": 7.52, "cold_first_audio_s": 8.02, "ts": 1788335974.3}
+{"kind": "cold-cached", "cfg": "ov-cache", "ready_s": 6.01, "cold_first_audio_s": 6.5, "ts": 1788335980.9}
+{"kind": "lone", "cfg": "ov-cache", "band": "short", "audio_s": 2.375, "first_ms": 366.9, "wall_s": 0.369, "ts": 1788335982.1}
+{"kind": "lone", "cfg": "ov-cache", "band": "medium", "audio_s": 6.625, "first_ms": 762.6, "wall_s": 0.764, "ts": 1788335984.5}
+{"kind": "lone", "cfg": "ov-cache", "band": "long", "audio_s": 27.475, "first_ms": 2830.5, "wall_s": 2.835, "ts": 1788335993.3}
+{"label": "ov-cache-c4", "clients": 4, "window_s": 75.8, "reqs": 317, "bad": 0, "audio_s": 2302.3, "throughput_x": 30.36, "server_cpu_s": 1080.1, "audio_per_cpu_s": 2.13, "first_p50_ms": 583.0, "first_p90_ms": 2699.0, "lat_p50_s": 0.58, "kind": "sustained", "cfg": "ov-cache", "ts": 1788336084.2}
+{"kind": "idle", "cfg": "ov-cache", "after_s": 60, "server_rss_mb": 7489.9, "cgroup_mb": 8200.6, "ts": 1788336144.2}
+{"kind": "idle", "cfg": "ov-cache", "after_s": 300, "server_rss_mb": 7489.9, "cgroup_mb": 8200.6, "ts": 1788336384.2}
+{"kind": "idle", "cfg": "ov-cache", "after_s": 600, "server_rss_mb": 7489.9, "cgroup_mb": 8200.6, "ts": 1788336684.2}
+{"kind": "cold", "cfg": "ov-8s", "ready_s": 6.76, "cold_first_audio_s": 7.37, "ts": 1788336695.1}
+{"kind": "lone", "cfg": "ov-8s", "band": "short", "audio_s": 2.375, "first_ms": 516.0, "wall_s": 0.518, "ts": 1788336696.7}
+{"kind": "lone", "cfg": "ov-8s", "band": "medium", "audio_s": 6.625, "first_ms": 1256.6, "wall_s": 1.264, "ts": 1788336700.6}
+{"kind": "lone", "cfg": "ov-8s", "band": "long", "audio_s": 27.475, "first_ms": 5363.2, "wall_s": 5.368, "ts": 1788336716.4}
+{"label": "ov-8s-c4", "clients": 4, "window_s": 77.4, "reqs": 207, "bad": 0, "audio_s": 1516.3, "throughput_x": 19.59, "server_cpu_s": 581.2, "audio_per_cpu_s": 2.61, "first_p50_ms": 787.0, "first_p90_ms": 4320.0, "lat_p50_s": 0.79, "kind": "sustained", "cfg": "ov-8s", "ts": 1788336808.9}
+{"kind": "idle", "cfg": "ov-8s", "after_s": 60, "server_rss_mb": 11460.1, "cgroup_mb": 12693.8, "ts": 1788336868.9}
+{"kind": "idle", "cfg": "ov-8s", "after_s": 300, "server_rss_mb": 11460.1, "cgroup_mb": 12693.8, "ts": 1788337108.9}
+{"kind": "idle", "cfg": "ov-8s", "after_s": 600, "server_rss_mb": 11460.1, "cgroup_mb": 12693.8, "ts": 1788337408.9}
+{"kind": "cold", "cfg": "ov-8s-cache", "ready_s": 7.26, "cold_first_audio_s": 7.86, "ts": 1788337420.4}
+{"kind": "cold-cached", "cfg": "ov-8s-cache", "ready_s": 6.51, "cold_first_audio_s": 7.12, "ts": 1788337427.7}
+{"kind": "lone", "cfg": "ov-8s-cache", "band": "short", "audio_s": 2.375, "first_ms": 495.0, "wall_s": 0.497, "ts": 1788337429.4}
+{"kind": "lone", "cfg": "ov-8s-cache", "band": "medium", "audio_s": 6.625, "first_ms": 1212.7, "wall_s": 1.215, "ts": 1788337433.1}
+{"kind": "lone", "cfg": "ov-8s-cache", "band": "long", "audio_s": 27.475, "first_ms": 5218.8, "wall_s": 5.224, "ts": 1788337448.9}
+{"label": "ov-8s-cache-c4", "clients": 4, "window_s": 79.3, "reqs": 214, "bad": 0, "audio_s": 1537.0, "throughput_x": 19.39, "server_cpu_s": 588.8, "audio_per_cpu_s": 2.61, "first_p50_ms": 643.0, "first_p90_ms": 4183.0, "lat_p50_s": 0.64, "kind": "sustained", "cfg": "ov-8s-cache", "ts": 1788337543.3}
+{"kind": "idle", "cfg": "ov-8s-cache", "after_s": 60, "server_rss_mb": 12095.5, "cgroup_mb": 13377.5, "ts": 1788337603.3}
+{"kind": "idle", "cfg": "ov-8s-cache", "after_s": 300, "server_rss_mb": 12062.7, "cgroup_mb": 13377.5, "ts": 1788337843.3}
+{"kind": "idle", "cfg": "ov-8s-cache", "after_s": 600, "server_rss_mb": 12062.2, "cgroup_mb": 13377.5, "ts": 1788338143.3}
+{"kind": "done-fill", "ts": 1788338147.0}
