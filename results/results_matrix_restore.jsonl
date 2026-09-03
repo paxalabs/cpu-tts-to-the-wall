@@ -1,0 +1,28 @@
+{"kind": "host", "cpu": "INTEL(R) XEON(R) PLATINUM 8581C CPU @ 2.10GHz", "cpus": 32, "cpu_max": "3200000 100000", "memory_max": "32000000000", "kernel": "6.18.15+deb13-cloud-amd64", "want_cpu": "8581C", "ts": 1788420573.2}
+{"kind": "cold", "cfg": "ov-ours8", "ready_s": 8.03, "cold_first_audio_s": 8.74, "ts": 1788420644.0}
+{"kind": "cold-cached", "cfg": "ov-ours8", "rep": 0, "ready_s": 7.27, "cold_first_audio_s": 7.94, "ts": 1788420655.1}
+{"kind": "cold-cached", "cfg": "ov-ours8", "rep": 1, "ready_s": 6.53, "cold_first_audio_s": 7.23, "ts": 1788420665.5}
+{"kind": "cold-cached", "cfg": "ov-ours8", "rep": 2, "ready_s": 5.76, "cold_first_audio_s": 6.95, "ts": 1788420675.6}
+{"kind": "lone", "cfg": "ov-ours8", "band": "short", "audio_s": 2.375, "first_ms": 662.2, "wall_s": 0.664, "ts": 1788420677.6}
+{"label": "ov-ours8-c4", "clients": 4, "window_s": 80.0, "reqs": 188, "bad": 0, "audio_s": 1387.8, "throughput_x": 17.35, "server_cpu_s": 565.3, "audio_per_cpu_s": 2.46, "first_p50_ms": 1155.0, "first_p90_ms": 4691.0, "lat_p50_s": 1.16, "kind": "sustained", "cfg": "ov-ours8", "ts": 1788420772.7}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 0, "released": true, "restored": true, "release_seen_s": 50.0, "quiet_s": 60.0, "rss_before_mb": 1305.2, "cgroup_before_mb": 1867.6, "first_ms": 2270.3, "wall_s": 2.278, "audio_s": 2.375, "ts": 1788420835.0}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 0, "first_ms": 483.1, "wall_s": 0.484, "rss_after_mb": 2628.9, "cgroup_after_mb": 3259.4, "ts": 1788420835.4}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 1, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1286.1, "cgroup_before_mb": 1920.7, "first_ms": 2107.6, "wall_s": 2.109, "audio_s": 2.375, "ts": 1788420895.6}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 1, "first_ms": 450.8, "wall_s": 0.452, "rss_after_mb": 2575.2, "cgroup_after_mb": 3276.4, "ts": 1788420896.0}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 2, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1272.2, "cgroup_before_mb": 1912.6, "first_ms": 2072.4, "wall_s": 2.074, "audio_s": 2.375, "ts": 1788420956.1}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 2, "first_ms": 541.2, "wall_s": 0.543, "rss_after_mb": 2538.1, "cgroup_after_mb": 3243.9, "ts": 1788420956.6}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 3, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1251.3, "cgroup_before_mb": 1895.3, "first_ms": 2311.2, "wall_s": 2.313, "audio_s": 2.375, "ts": 1788421017.0}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 3, "first_ms": 604.9, "wall_s": 0.611, "rss_after_mb": 2583.6, "cgroup_after_mb": 3295.9, "ts": 1788421017.6}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 4, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1256.2, "cgroup_before_mb": 1906.0, "first_ms": 2224.2, "wall_s": 2.232, "audio_s": 2.375, "ts": 1788421077.8}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 4, "first_ms": 468.0, "wall_s": 0.469, "rss_after_mb": 2563.6, "cgroup_after_mb": 3280.4, "ts": 1788421078.3}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 5, "released": true, "restored": true, "release_seen_s": 46.0, "quiet_s": 56.0, "rss_before_mb": 1261.6, "cgroup_before_mb": 1907.8, "first_ms": 2267.3, "wall_s": 2.269, "audio_s": 2.375, "ts": 1788421136.6}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 5, "first_ms": 439.0, "wall_s": 0.44, "rss_after_mb": 2559.1, "cgroup_after_mb": 3272.0, "ts": 1788421137.0}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 6, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1281.9, "cgroup_before_mb": 1933.1, "first_ms": 2102.8, "wall_s": 2.104, "audio_s": 2.375, "ts": 1788421197.1}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 6, "first_ms": 556.0, "wall_s": 0.557, "rss_after_mb": 2595.6, "cgroup_after_mb": 3312.1, "ts": 1788421197.7}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 7, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1273.9, "cgroup_before_mb": 1872.7, "first_ms": 2243.7, "wall_s": 2.245, "audio_s": 2.375, "ts": 1788421257.9}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 7, "first_ms": 498.9, "wall_s": 0.5, "rss_after_mb": 2550.8, "cgroup_after_mb": 3214.9, "ts": 1788421258.4}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 8, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1274.1, "cgroup_before_mb": 1579.6, "first_ms": 2258.7, "wall_s": 2.26, "audio_s": 2.375, "ts": 1788421318.7}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 8, "first_ms": 500.7, "wall_s": 0.502, "rss_after_mb": 2545.0, "cgroup_after_mb": 2915.6, "ts": 1788421319.2}
+{"kind": "restore", "cfg": "ov-ours8", "cycle": 9, "released": true, "restored": true, "release_seen_s": 48.0, "quiet_s": 58.0, "rss_before_mb": 1276.9, "cgroup_before_mb": 1578.5, "first_ms": 2186.3, "wall_s": 2.188, "audio_s": 2.375, "ts": 1788421379.4}
+{"kind": "warm-after-restore", "cfg": "ov-ours8", "cycle": 9, "first_ms": 516.5, "wall_s": 0.518, "rss_after_mb": 2556.1, "cgroup_after_mb": 2923.6, "ts": 1788421379.9}
+{"kind": "done-restore", "ts": 1788421383.1}

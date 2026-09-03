@@ -45,6 +45,7 @@ before `fill_values.py`, because the per-day cost macros read
 | `matrix_rerun_pool_fix.py` | rerun of the OpenVINO sustained rows after the inference-request pool fix (rows suffixed `-v2`) | `results/results_matrix.jsonl` |
 | `matrix_fill.py` | the fill pass: the four table cells the primary campaign did not sample (sized ONNX Runtime idle, `ov-cache` idle, `ov-8s` cold start, cached eight-stream cold start), plus same-container anchors, on a second container of the primary host's class; refuses to run on any other CPU model | `results/results_matrix_fill.jsonl` |
 | `matrix_lifecycle.py`, `matrix_lifecycle_8streams.py` | the paper's configuration with four and with eight streams: cold start, lone latency, sustained load, idle decay through a release, restore latency | `results/results_matrix.jsonl` |
+| `matrix_restore.py` | the restore repeats: ten release-and-restore cycles of `ov-ours8` after a sustained window, preceded by one fresh and three cached process cold starts of the same configuration, on a second container of each host class (`WANT_CPU` selects the host; refuses to run on any other CPU model) | `results/results_matrix_restore.jsonl`, `results_matrix_restore_epyc.jsonl` |
 | `pad_and_fusion_probe.py` | pad-tolerance test and the dynamic-versus-static per-operator profile (run on an otherwise idle container) | `results/results_g3.json` |
 | `matrix_second_arch.py` | the second-architecture pass: full setup, then a reduced matrix | `results/results_matrix_epyc.jsonl` |
 | `pocket_protocol.py`, `pocket_sustained.py` | the transfer check on pocket-tts, served by its own HTTP server in its own container | `results/results_pocket_full.json`, `results_pocket_sus.json` |
@@ -97,6 +98,7 @@ order):
 6. `matrix_second_arch.py` on the second host (it performs step 1 itself)
 7. `pocket_protocol.py`, then `pocket_sustained.py` in the pocket-tts container
 8. `matrix_fill.py` on a fresh container of the primary host's class (it performs step 1 itself)
+9. `matrix_restore.py` on a fresh container of each host class, `WANT_CPU=8581C` and `WANT_CPU=9655` (it performs step 1 itself)
 
 **Configurations.** Each matrix script starts `serve_shim.py` with the
 environment of one configuration, drives it with `loadgen_local.py`, and
@@ -104,15 +106,17 @@ appends one JSON row per measurement. The configuration names used in the
 results (`pt-default`, `pt-4t`, `ort-default`, `ort-4t`, `ov-default`,
 `ov-4t4s`, `ov-cache`, `ov-8s`, `ov-8s-cache`, `ov-ours`, `ov-ours8`) are defined, with
 their exact environment, in the tables at the top of `matrix_main.py`,
-`matrix_lifecycle.py`, `matrix_lifecycle_8streams.py`, `matrix_fill.py`, and
-`matrix_second_arch.py`. The fill pass ran in a different container from
-the primary campaign; its cells carry a dagger in the paper's tables and
-its `host` row records the CPU model and cgroup limits it saw. `ov-ours8` is the paper's "This work".
+`matrix_lifecycle.py`, `matrix_lifecycle_8streams.py`, `matrix_fill.py`,
+`matrix_restore.py`, and `matrix_second_arch.py`. The fill pass and the
+restore repeats ran in different containers from the primary campaign;
+their cells carry a dagger in the paper's tables and their `host` rows
+record the CPU model and cgroup limits they saw. `ov-ours8` is the paper's "This work".
 
 ## Raw result files
 
-`results/results_matrix.jsonl`, `results/results_matrix_epyc.jsonl`, and
-`results/results_matrix_fill.jsonl` hold one JSON object per line, distinguished by `kind`:
+`results/results_matrix.jsonl`, `results/results_matrix_epyc.jsonl`,
+`results/results_matrix_fill.jsonl`, `results/results_matrix_restore.jsonl`, and
+`results/results_matrix_restore_epyc.jsonl` hold one JSON object per line, distinguished by `kind`:
 
 | `kind` | fields |
 | --- | --- |
@@ -121,7 +125,8 @@ its `host` row records the CPU model and cgroup limits it saw. `ov-ours8` is the
 | `lone` | `cfg`, `band` (`short`, `medium`, `long`), `first_ms`, `wall_s`, `audio_s` (one request on an idle server) |
 | `sustained` | `cfg`, `clients`, `window_s`, `reqs`, `audio_s`, `server_cpu_s`, `audio_per_cpu_s`, `throughput_x`, `first_p50_ms`, `first_p90_ms`, `lat_p50_s`, `bad`, `label` |
 | `idle` | `cfg`, `after_s` (seconds after the last response), `server_rss_mb`, `cgroup_mb` |
-| `restore` | `cfg`, `first_ms`, `wall_s` (first request after an idle release) |
+| `restore` | `cfg`, `first_ms`, `wall_s` (first request after an idle release); the restore repeats add `cycle`, `released`, `release_seen_s`, `quiet_s`, `rss_before_mb`, `cgroup_before_mb`, `audio_s` |
+| `warm-after-restore` | `cfg`, `cycle`, `first_ms`, `wall_s`, `rss_after_mb`, `cgroup_after_mb` (the same request repeated immediately after a restore; restore repeats only) |
 | `done*` | end-of-job markers with timestamps |
 
 `audio_per_cpu_s` is the paper's sustained efficiency (audio-seconds
