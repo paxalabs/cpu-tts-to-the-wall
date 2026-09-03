@@ -11,3 +11,8 @@ ovcache/
 *.wav
 # figure output directory
 figs/
+# paper-side tooling lives with the paper source, not in this artifact
+fill_values.py
+fig_*.py
+analyze.py
+out/
